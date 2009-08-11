@@ -1,12 +1,12 @@
-.project {
+#project-index li {
     padding: 0;
 }
 
-.project a {
+#project-index li a {
     padding-bottom: 0;
 }
 
-.project .description {
+#project-index li .description {
     height: 70px;
     width: 320px;
     background: #000;
@@ -20,11 +20,11 @@
     font-weight: normal;
 }
 
-.project .description span {
+#project-index li .description span {
     display: block;
 }
 
-.project .description .title {
+#project-index li .description .title {
     float: left;
     font-size: 30px;
     font-weight: bold;
@@ -33,12 +33,12 @@
     letter-spacing: -3px;
 }
 
-.project .description .rating {
+#project-index li .description .rating {
     font-size: 20px;
     line-height: 35px;
     letter-spacing: -3px;
 }
 
-.project .description .author {
+#project-index li .description .author {
     height: 20px;
 }
