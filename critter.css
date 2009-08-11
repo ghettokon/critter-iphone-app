@@ -1,0 +1,44 @@
+.project {
+    padding: 0;
+}
+
+.project a {
+    padding-bottom: 0;
+}
+
+.project .description {
+    height: 70px;
+    width: 320px;
+    background: #000;
+    z-index: 2;
+    position: absolute;
+    bottom: -1px;
+    opacity: 0.8;
+    
+    color: white;
+    font-family: Verdana;
+    font-weight: normal;
+}
+
+.project .description span {
+    display: block;
+}
+
+.project .description .title {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 5px;
+    letter-spacing: -3px;
+}
+
+.project .description .rating {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -3px;
+}
+
+.project .description .author {
+    height: 20px;
+}
