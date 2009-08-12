@@ -78,7 +78,7 @@
     -webkit-border-image: url(toolButton.png) 0 5 0 5;
 }
 
-.tab.projects {
+.tab.home {
     background: url(img/ui/project.png) no-repeat top center;
 }
 
