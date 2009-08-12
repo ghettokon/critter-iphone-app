@@ -42,3 +42,11 @@
 #project-index li .description .author {
     height: 20px;
 }
+
+.toolbar.tabs {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+/*    background: red;*/
+    z-index: 100;
+}
