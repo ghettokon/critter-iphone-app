@@ -43,10 +43,58 @@
     height: 20px;
 }
 
+.toolbar.black {
+    background: url(toolbar.png) #6d84a2 repeat-x; 
+
+}
+
 .toolbar.tabs {
     width: 100%;
     position: fixed;
+    height: 50px;
     bottom: 0;
-/*    background: red;*/
     z-index: 100;
+    padding: 0;
 }
+
+.tabs .tab {
+    display: block;
+    float: left;
+    width: 64px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    line-height: 77px;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-border-image: url(toolButton.png) 0 5 0 5;
+}
+
+.tab.projects {
+    background: url(img/ui/project.png) no-repeat top center;
+}
+
+.tab.search {
+    background: url(img/ui/search.png) no-repeat top center;
+}
+
+.tab.favorites {
+    background: url(img/ui/favorite.png) no-repeat top center;
+}
+
+.tab.info {
+    background: url(img/ui/info.png) no-repeat top center;
+}
+
+.tab.unknown {
+    background: url(img/ui/unknown.png) no-repeat top center;
+}
+
