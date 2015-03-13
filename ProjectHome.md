@@ -1,0 +1,1 @@
+Critter will allow students across Parsons to exchange work and collaborate on projects, overcoming the departmental compartmentalization that has become commonplace
